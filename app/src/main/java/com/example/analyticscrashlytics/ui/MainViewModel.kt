@@ -9,9 +9,14 @@ import javax.inject.Inject
 @HiltViewModel
 class MainViewModel @Inject constructor(private val analyticsManager: AnalyticsManager) : ViewModel() {
 
+
     fun example(){
         analyticsManager.example()
         analyticsManager.example2()
+
+        // ejemplo de crash
+      //  throw RuntimeException("Crashlytics test")
+
     }
 
 
