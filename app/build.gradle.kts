@@ -72,7 +72,9 @@ dependencies {
     implementation(libs.com.google.dagger.navigation)
 
 
-
+// Firebase
+    implementation(libs.firebase.analytics)
+    implementation (platform(libs.firebase.bom))
 
 
 

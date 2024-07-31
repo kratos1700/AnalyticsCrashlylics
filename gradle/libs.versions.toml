@@ -16,6 +16,7 @@ ksp = "2.0.0-1.0.21"
 daggerHiltNav = "1.0.0"
 
 #Firebase Analytics
+firebaseBom = "33.1.2"
 googleGmsGoogleServices = "4.4.2"
 firebaseAnalytics = "22.0.2"
 
@@ -41,6 +42,7 @@ com-google-dagger-compiler = { group = "com.google.dagger", name = "hilt-android
 com-google-dagger-navigation = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "daggerHiltNav" }
 
 #Firebase Analytics
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics", version.ref = "firebaseAnalytics" }
 
 [plugins]
